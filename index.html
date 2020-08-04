@@ -9,33 +9,73 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <nav class="header__nav">
-                <h1 class="header__heading">Cahee</h1>
-                <ul class="header__list">
-                    <li class="header__item">
-                        <a href="#" class="header__link">Home</a>
-                    </li>
-                    <li class="header__item"><a href="#about" class="header__link">About</a></li>
-                    <li class="header__item"><a href="#" class="header__link">Services</a></li>
-                    <li class="header__item"><a href="#" class="header__link">Gallery</a></li>
-                    <li class="header__item"><a href="#" class="header__link">Blog</a></li>
-                    <li class="header__item"><a href="#" class="header__link">Contact</a></li>
-                </ul>
-            </nav>
+    <header id="home" class="header gridSystem">
+        <nav class="header__nav">
+            <h1 class="header__heading">Cahee</h1>
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="#home" class="header__link">Home</a>
+                </li>
+                <li class="header__item">
+                    <a href="#about" class="header__link">About</a>
+                </li>
+                <li class="header__item">
+                    <a href="#services" class="header__link">Services</a>
+                </li>
+                <li class="header__item">
+                    <a href="#gallery" class="header__link">Gallery</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Blog</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
 
-            <div class="header__content">
-                <h1 class="header__text">Fresh Life</h1>
-                <p class="header__paragraph">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <button class="header__button">Get free now</button>
+        <div class="header__content">
+            <h1 class="header__text">Fresh Life</h1>
+            <p class="header__paragraph">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <button class="header__button">Get free now</button>
+        </div>
+    </header>
+    <section id="about" class="about">
+        <img src="/assets/img/about_img.png" alt="">
+        <div class="about__description">
+            <h1 class="about__heading">About Us</h1>
+            <p class="about__paragraph">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum.<br><br>
+                Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="services__cards">
+            <div class="services__card">
+                <p class="services__text">Online Shopping</p>
+                <img src="./assets/img/icon_cart.png" class="services__icon" alt="Cart icon">
             </div>
-        </header>
-        <section id="about" class="about">
-            
-        </section>
-    </div>
+            <div class="services__card">
+                <p class="services__text">Quality Product</p>
+                <img src="./assets/img/icon_plant.png" class="services__icon" alt="Plant icon">
+            </div>
+            <div class="services__card">
+                <p class="services__text">Domestic & International Delivery</p>
+                <img src="./assets/img/icon_globe.png" class="services__icon" alt="Globe icon">
+            </div>
+            <div class="services__card">
+                <p class="services__text">Well Organized</p>
+                <img src="./assets/img/icon_carrot.png" class="services__icon" alt="Carrot icon">
+            </div>
+        </div>
+        <div class="services__about">
+            <img src="./assets/img/services_img.png" alt="">
+            <h1 class="services__imgText">Our Services</h1>
+        </div>
+    </section>
 </body>
 
 </html>
